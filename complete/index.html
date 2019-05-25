@@ -1,0 +1,66 @@
+<html>
+    <head>
+            <link rel = "stylesheet"
+            type = "text/css"
+            href = "style.css" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    </head>
+
+    <body >
+
+        <div class="page">     
+<div class="head">
+        <nav>A<span class="s">S</span>TO<center><h1 class='A'>Diet Tracker</h1></center></nav>
+</div>
+<div class="container">
+                <center>            
+<div class="inputs">
+      
+              <form onsubmit="return validateForm()"  target="_self"  action="main.html">
+              <span class="i">Age:</span><pre>   </pre><input type="text" placeholder="Enter Age" value=""  onkeydown="next()"  onkeyup="next()"  class="age" required>Yrs...<br>
+                      <span class="i">Height:</span><input type="text"  placeholder="Enter Feet" value="" onkeyup="next()" onkeydown="next()" class="heightf" required>Feet
+                      <input type="text" placeholder="Enter Inch" value="" onkeyup="next()" onkeydown="next()" class="heighti" required>Inch
+                     <pre class="or">    (Or)</pre><pre>            </pre><input placeholder="Enter height in cm" onkeyup="next()" onkeydown="next()" type="text" value="" class="heightc" required>
+                     Centimeter <br>
+                     
+         <input type="radio" style="margin-left:-5rem; margin-right: -5rem;" name="vehicle" class="needed" value="male"><p class="ii">Male</p>
+                     <input type="radio" name="vehicle" value="female" style="margin-right:-5rem;" class="needed" checked><p class="ii">Female</p>
+                     
+                     
+                   <br>  <span class="i">Weight:</span><input onkeydown="next()" onkeyup="next()" placeholder="Enter weight in Lbs" type="text" value="" class="weightp" required> Lbs <pre class="or">    (Or)</pre>
+                     <pre>        </pre> <input onkeyup="next()" onkeydown="next()" placeholder="Enter weight in Kgs" type="text" value="" class="weightk" required>Kgs
+                  
+                     
+           <br><br><input type="submit"  value="Begin" onclick="next()" class="button">              
+        
+        </form>
+        
+</div>  </center> 
+
+<center>    <span class="text" style="width:100%;">*Please fill these details to experience Complete Feature.</span></center>
+</div>       
+        
+        
+        
+        
+      
+     
+
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+    
+
+</body>
+
+    </html>
+
+
+
+
+   

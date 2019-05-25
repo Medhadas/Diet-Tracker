@@ -1,0 +1,279 @@
+html{margin:0px;
+padding:0px;
+font-size:20px;}
+*{margin:0px;
+  padding:2px;
+}
+
+.ii{font-size:1rem;   
+margin-left:0rem;
+display: inline;}
+.needed{font-size:1rem;
+  margin-right: 0rem;
+  padding-right: 0rem;  
+size:5rem;}
+.button,nav,.s{font-family: "Times New Roman", Times, serif;
+    font-size: 1.5rem;
+   
+    letter-spacing: 0.2rem;
+    font-weight: 1000;
+    text-decoration: lightgray;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: capitalize;}
+    .button{border-radius: 0.5rem; margin-bottom: 0.2rem;
+    background-color: rgb(70, 106, 206);
+    word-wrap: break-word;
+    }
+    .s{font-size: 2rem;}
+    
+    input[type=text]:focus {
+      border: 0.15rem solid #555;
+    }
+    .text{ font-size:1rem;
+      letter-spacing: 0.15rem;
+      word-spacing: 0.25rem;
+      text-transform: capitalize;
+      font-weight: 700;
+      text-decoration: none;
+      word-wrap: break-word;
+      }
+
+      .A {
+        font-size: 3rem;
+        background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#333));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif,"Comic Sans MS";
+    }
+    
+    .head{font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 5rem;
+    letter-spacing: 0.16rem;
+    word-spacing: 0.3rem;
+   
+    color: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    font-weight: 400;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: capitalize;}
+    
+
+
+    .s{color:crimson;}
+    .or{display: block;}
+    .heighti,.heightf{width:6.2rem;}
+
+ 
+        
+        .inputs{     
+          border-block-style: inline;
+          width:37rem;
+          height:17rem;
+        
+      
+            background-color: #1fc8db;
+            background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+            color: white;
+            opacity: 0.96;
+            text-align: center;
+        
+              ;}
+            .container{width:100%;
+            height:100%;
+          
+          text-align: center;}
+    
+     .age{margin-bottom:1.5rem;}
+            input{
+              border-radius: 0.4rem;
+       
+            }
+            pre{display: inline;}
+            .heightc{margin-bottom: 0.2rem;}
+            .page{ 
+                width:100%;
+                height:100%;
+                background-image: url('w2.jpg') ;
+              background-size: contain;
+              background-repeat: round;
+                              overflow: hidden;
+              
+                
+    }
+.ii{display: inline;
+margin-left:0px;}
+
+    input[type="radio"] {
+      -ms-transform: scale(0.5); /* IE 9 */
+      -webkit-transform: scale(0.5); /* Chrome, Safari, Opera */
+      transform: scale(0.5);
+  }
+    .i{font-family: Impact, Charcoal, sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0rem;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    word-wrap: break-word}
+input
+{width:13rem;}
+
+
+    @media screen and (max-width:1367px)
+    {
+.container{width:100%;}
+    }
+
+    @media screen and (max-width:946px)
+    {  
+html{font-size:19px;}
+.inputs{width:35rem;}
+    }
+  
+                @media screen and (max-width:870px)
+    {  .inputs{width:33rem;
+    height:17.5rem;}
+    .ii{font-size: 0.8rem;}
+html{font-size:18px;}
+    }
+  
+    @media screen and (max-width:750px)
+    { .inputs{width:31rem; height:18rem;}
+html{font-size:17px;}
+.ii{font-size: 0.7rem;}
+.button{
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  font-weight: 1000;
+  border-radius: 0.4rem; margin-bottom: 0.15rem;}
+    }
+    @media screen and (max-width:720px)
+    {  .inputs{width:30rem;}
+html{font-size:15px;}
+.i{font-size: 1.1rem;}
+.inputs{height:18rem;}
+.button{
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  font-weight: 1000;
+  border-radius: 0.35rem; margin-bottom: 0.25rem;}
+    }
+
+    
+    @media screen and (max-width:660px)
+    { .inputs{width:29rem;}
+html{font-size:14px;}
+
+    }
+
+    @media screen and (max-width:600px)
+    {  input{width:10rem;}
+      .inputs{width:28rem;
+      height:19rem;}
+      html{font-size:13.5px;}
+    }
+
+    @media screen and (max-width:570px)
+    {
+      input{width:9.5rem;}
+      .inputs{width:27rem;
+        height:19.8rem;}
+      html{font-size:12.5px;}
+    }
+    @media screen and (max-width:520px)
+    {
+      input{width:9.3rem;
+     }
+      .inputs{width:27rem;
+        height:20rem;}
+      html{font-size:12px;}
+    }
+
+    @media screen and (max-width:460px)
+    {
+      input{width:9rem;}
+      .inputs{width:27rem;
+        height:23rem;}
+      html{font-size:10px;}
+    }
+
+    @media screen and (max-width:420px)
+    {
+      input{width:9rem;
+      height:2.3rem;}
+      .inputs{width:27rem;
+        height:23rem;}
+      html{font-size:9.5px;}
+    }
+
+    @media screen and (max-width:340px)
+    {
+      input{width:8.2rem;
+      height:2.3rem;}
+
+      .inputs{width:27rem;
+        height:23rem;}
+      html{font-size:9px;}
+    }
+    @media screen and (max-width:320px)
+    { .container{width:100%;}
+      input{width:8.2rem;
+      height:2.3rem;}
+ .text{width:100%;}
+      .inputs{width:23rem;
+        height:23rem;}
+      html{font-size:8.4px;}
+    }
+
+    @media screen and (max-height:640px)
+    { .page{height:100%;
+    width:100%}
+    html{font-size:19px;}
+  .inputs{width:39rem;
+  height:16rem;}
+  .button{font-size:1rem;
+    border-radius: 0.3rem;
+    font-weight: 400;
+  }
+input{width:14rem;
+height:1.3rem;}}
+    
+  @media screen and (max-height:545px)
+  { .page{height:100%;
+  width:100%}
+  html{font-size:17.5px;}
+.inputs{width:40rem;
+height:16rem;}
+.button{font-size:1.2rem;}
+}
+
+@media screen and (max-height:500px)
+{ .page{height:100%;
+width:100%}
+html{font-size:16px;}
+.inputs{width:40rem;
+height:16rem;}
+.button{font-size:1.2rem;}
+}
+@media screen and (max-height:450px)
+{ .page{height:100%;
+width:100%}
+html{font-size:14.5px;}
+.inputs{width:40rem;
+height:16rem;}
+.button{font-size:1.2rem;}
+}
+
+
+
+
+
+
+
+

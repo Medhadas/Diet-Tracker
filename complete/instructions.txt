@@ -1,0 +1,17 @@
+0. The details written below the very first green line in blue colors are your daily recommendable intakes which is basically calculated with the help of your Age, Height, Weight, Gender and daily activities.
+
+1. The very first step is to add your details related to food consumed.
+
+2.Details entered would be arranged in respective order of entering time and will be displayed between the two green lines.
+
+3.The respective details of all food would be counted and shown in the BLUE BOX.
+
+4.Once the overall calories or carbohydrates or fats or proteins crosses their respective limits then their color turns into RED, if they falls on the level of recommended limits then it color turns into GREEN else would be shown in WHITE.
+
+5.Let's say if some mischievous person disturbs the routine by adding extra food then in that case, A button is provided to delete it and well you'll be wondering, what if the person deletes it, Ahh yep it's possible then data can be back only if added again :( , but practically it doesn't happens as the Adding button draws the user attention and thus person would go with adding first and by the next move of him/her you :) supposed to come and stop it.
+
+6.Now the only thing left is Water Intake perhaps. Now A timer is generated which would automatically alert the user at a particular time telling to consume water  And when it alerts then the webpage automatically maximize thus allow you to work on your projects / for the particular timing written before check FAQs number 1.
+
+7.Apart from the above it is not obvious to drink equal quantity of water at each time. So you can add the amount of Water consumed in LITRES (which is just below the very first green line) and it will alert you with the remaining amount to drink. REMEMBER water intake is calculated based on various aspects so I suggest you to complete the daily limits.
+
+8.Now you may have certain doubts which is obvious then you can search it on FAQs(Frequently Asked Questions) which is at the bottom... Wait :| why I'm telling you this you are already aware of it. :).
