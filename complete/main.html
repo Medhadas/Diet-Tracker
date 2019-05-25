@@ -177,10 +177,13 @@ transform:rotate(-55deg);}
 }
 
 		nav{display:flex;
+		background-color:rgba(1, 1, 1, 1);
 		justify-content:space-between;
+		border-width:0.5rem;
+		border-style:double;
 		position: inherit;
 		border-radius: 0.625rem;
-		border-color: green;}
+		border-color: white;}
 		h1{ font-style:italic;
 		font-family:verdana;
 		margin:0.625rem ;
@@ -258,7 +261,7 @@ transform:rotate(-55deg);}
 		
 		margin:0.125rem auto;
 		}
-		.asto{color:black;}
+		.asto{color:white;}
 		.icons{display:block;margin-top:1.25rem;}
 		button{display:inline;}
 		form{display:inline;}
@@ -853,18 +856,23 @@ D.innerHTML=+(d)+(+D.innerHTML);
 
 
 function world()
-{L();
+{
   var name=document.getElementsByClassName('name')[0];
   var carbohydrate=document.getElementsByClassName('car')[0];
   var protein=document.getElementsByClassName('pro')[0];
   var fat=document.getElementsByClassName('fat')[0];
   var calory=document.getElementsByClassName('cal')[0];
 
+	
+  if(isNaN(calory.value)||+calory.value<0){alert('ENTER VALID CALORY VALUE');}
+else	if(isNaN(carbohydrate.value)||+carbohydrate.value<0){alert('ENTER VALID CARBOHYDRATE VALUE');}
+else	if(isNaN(fat.value)||+fat.value<0){alert('ENTER VALID FAT VALUE');}
+  else if(isNaN(protein.value)||+protein.value<0){alert('ENTER VALID PROTEIN VALUE');}
 
-  
  
-  if(calory.value.length>0&&carbohydrate.value.length>0&&protein.value.length>0&&fat.value.length>0){
-    var c=document.createElement('span');
+ else if(calory.value.length>0&&carbohydrate.value.length>0&&protein.value.length>0&&fat.value.length>0){
+  L();
+	  var c=document.createElement('span');
     var C=document.createElement('span');
     var p=document.createElement('span');
     var f=document.createElement('span'); 
